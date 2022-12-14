@@ -1478,3 +1478,146 @@ Caused by: org.eclipse.jgit.errors.TransportException: https://github.com/Etienn
 	at org.eclipse.jgit.transport.Transport.push(Transport.java:1250)
 	at org.eclipse.jgit.api.PushCommand.call(PushCommand.java:158)
 	... 4 more
+!SESSION 2022-12-13 17:38:49.142 -----------------------------------------------
+eclipse.buildId=
+java.fullversion=8.0.5.25 - pwa6480sr5fp25-20181030_01(SR5 FP25)
+JRE 1.8.0 Windows 8 amd64-64-Bit Compressed References 20181029_400846 (JIT enabled, AOT enabled)
+OpenJ9   - c5c78da
+OMR      - 3d5ac33
+IBM      - 8c1bdc2
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  -init -perspective ilog.rules.studio.ui.perspectives.RuleEditingPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -init -perspective ilog.rules.studio.ui.perspectives.RuleEditingPerspective
+
+!ENTRY ilog.rules.studio.shared 1 1 2022-12-13 17:39:01.126
+!MESSAGE Variable de chemin d'accès aux classes ILOG_EXECUTION_SERVER_HOME initialisée avec la valeur 'C:/IBM/ODM8102/executionserver'.
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-12-13 17:39:05.612
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\eruchon'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2022-12-13 17:46:27.503
+!MESSAGE Erreur interne
+!STACK 1
+Java Model Exception: Java Model Status [Format javadoc inconnu pour Tuple {key=Lcom/ibm/xylem/interpreter/Tuple;} [in Tuple.class [in com.ibm.xylem.interpreter [in C:\IBM\ODM8102\jdk\jre\lib\xml.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:81)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:999)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:538)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:757)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:675)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:667)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:164)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:86)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2022-12-13 17:46:27.503
+!MESSAGE Format javadoc inconnu pour Tuple {key=Lcom/ibm/xylem/interpreter/Tuple;} [in Tuple.class [in com.ibm.xylem.interpreter [in C:\IBM\ODM8102\jdk\jre\lib\xml.jar]]]
+!SESSION 2022-12-14 09:57:03.123 -----------------------------------------------
+eclipse.buildId=
+java.fullversion=8.0.5.25 - pwa6480sr5fp25-20181030_01(SR5 FP25)
+JRE 1.8.0 Windows 8 amd64-64-Bit Compressed References 20181029_400846 (JIT enabled, AOT enabled)
+OpenJ9   - c5c78da
+OMR      - 3d5ac33
+IBM      - 8c1bdc2
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  -init -perspective ilog.rules.studio.ui.perspectives.RuleEditingPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -init -perspective ilog.rules.studio.ui.perspectives.RuleEditingPerspective
+
+!ENTRY ilog.rules.studio.shared 1 1 2022-12-14 09:57:34.376
+!MESSAGE Variable de chemin d'accès aux classes ILOG_EXECUTION_SERVER_HOME initialisée avec la valeur 'C:/IBM/ODM8102/executionserver'.
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-12-14 09:57:41.668
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\eruchon'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.ibm.rules.studio.decisionservice.ui 4 0 2022-12-14 10:31:02.543
+!MESSAGE Etat du serveur cible de déploiement : [• Cible 'Connexion locale intérêt sur le livret développement durable': 'Le déploiement de modèle d'objet d'exécution (XOM) n'est pas pris en charge pour la connexion au Java SE Rule Execution Server 'Connexion locale intérêt sur le livret développement durable'.'.]
+
+!ENTRY com.ibm.rules.studio.decisionservice.ui 4 0 2022-12-14 10:31:02.551
+!MESSAGE Etat du serveur cible de déploiement : [• Cible 'Connexion locale intérêt sur le livret développement durable': 'Le déploiement de modèle d'objet d'exécution (XOM) n'est pas pris en charge pour la connexion au Java SE Rule Execution Server 'Connexion locale intérêt sur le livret développement durable'.'., • Cible 'Connexion Console Livret Developpement Durable': 'L'authentification a échoué pour l'utilisateur "null" sur "http://localhost:9090/res". L'authentification a échoué pour l'utilisateur "null" sur "http://localhost:9090/res".'.]
+!SESSION 2022-12-14 11:08:25.332 -----------------------------------------------
+eclipse.buildId=
+java.fullversion=8.0.5.25 - pwa6480sr5fp25-20181030_01(SR5 FP25)
+JRE 1.8.0 Windows 8 amd64-64-Bit Compressed References 20181029_400846 (JIT enabled, AOT enabled)
+OpenJ9   - c5c78da
+OMR      - 3d5ac33
+IBM      - 8c1bdc2
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  -init -perspective ilog.rules.studio.ui.perspectives.RuleEditingPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -init -perspective ilog.rules.studio.ui.perspectives.RuleEditingPerspective
+
+!ENTRY ilog.rules.studio.shared 1 1 2022-12-14 11:10:21.177
+!MESSAGE Variable de chemin d'accès aux classes ILOG_EXECUTION_SERVER_HOME initialisée avec la valeur 'C:/IBM/ODM8102/executionserver'.
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-12-14 11:10:28.527
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\eruchon'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.help.base 4 0 2022-12-14 11:28:23.231
+!MESSAGE Internal error while reading TOC contents from remote server
+!STACK 0
+org.xml.sax.SAXParseException: Le type d'élément "hr" doit se terminer par une balise de fermeture correspondante ("</hr>").
+	at org.apache.xerces.parsers.DOMParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at org.eclipse.help.internal.dynamic.DocumentReader.read(DocumentReader.java:56)
+	at org.eclipse.help.internal.dynamic.DocumentReader.read(DocumentReader.java:44)
+	at org.eclipse.help.internal.base.remote.RemoteTocParser.parse(RemoteTocParser.java:34)
+	at org.eclipse.help.internal.base.remote.RemoteTocProvider.getTocContributions(RemoteTocProvider.java:98)
+	at org.eclipse.help.internal.toc.TocManager.getAndCacheTocContributions(TocManager.java:211)
+	at org.eclipse.help.internal.toc.TocManager.getTocContributionsForToc(TocManager.java:199)
+	at org.eclipse.help.internal.toc.TocManager.getRootTocContributions(TocManager.java:307)
+	at org.eclipse.help.internal.toc.TocManager.getTocs(TocManager.java:68)
+	at org.eclipse.help.HelpSystem.getTocs(HelpSystem.java:71)
+	at ilog.rules.studio.irleditor.actions.IlrOpenDocumentationAction.searchKeywordTopic(IlrOpenDocumentationAction.java:105)
+	at ilog.rules.studio.irleditor.actions.IlrOpenDocumentationAction.access$0(IlrOpenDocumentationAction.java:104)
+	at ilog.rules.studio.irleditor.actions.IlrOpenDocumentationAction$1.call(IlrOpenDocumentationAction.java:98)
+	at ilog.rules.studio.irleditor.actions.IlrOpenDocumentationAction$1.call(IlrOpenDocumentationAction.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:277)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1160)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:812)
+
+!ENTRY org.eclipse.help.base 4 0 2022-12-14 11:28:23.701
+!MESSAGE Internal error while reading topic extensions from remote server
+!STACK 0
+org.xml.sax.SAXParseException: Le type d'élément "hr" doit se terminer par une balise de fermeture correspondante ("</hr>").
+	at org.apache.xerces.parsers.DOMParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at org.eclipse.help.internal.dynamic.DocumentReader.read(DocumentReader.java:56)
+	at org.eclipse.help.internal.dynamic.DocumentReader.read(DocumentReader.java:44)
+	at org.eclipse.help.internal.base.remote.RemoteExtensionProvider.getContentExtensions(RemoteExtensionProvider.java:61)
+	at org.eclipse.help.internal.extension.ContentExtensionManager.loadExtensions(ContentExtensionManager.java:100)
+	at org.eclipse.help.internal.extension.ContentExtensionManager.getExtensions(ContentExtensionManager.java:67)
+	at org.eclipse.help.internal.dynamic.ExtensionResolver.resolveExtension(ExtensionResolver.java:61)
+	at org.eclipse.help.internal.dynamic.ExtensionHandler.handleExtension(ExtensionHandler.java:63)
+	at org.eclipse.help.internal.dynamic.ExtensionHandler.handle(ExtensionHandler.java:44)
+	at org.eclipse.help.internal.dynamic.DocumentProcessor.process(DocumentProcessor.java:44)
+	at org.eclipse.help.internal.dynamic.DocumentProcessor.process(DocumentProcessor.java:57)
+	at org.eclipse.help.internal.toc.TocAssembler.process(TocAssembler.java:251)
+	at org.eclipse.help.internal.toc.TocAssembler.assemble(TocAssembler.java:79)
+	at org.eclipse.help.internal.toc.TocManager.getRootTocContributions(TocManager.java:310)
+	at org.eclipse.help.internal.toc.TocManager.getTocs(TocManager.java:68)
+	at org.eclipse.help.HelpSystem.getTocs(HelpSystem.java:71)
+	at ilog.rules.studio.irleditor.actions.IlrOpenDocumentationAction.searchKeywordTopic(IlrOpenDocumentationAction.java:105)
+	at ilog.rules.studio.irleditor.actions.IlrOpenDocumentationAction.access$0(IlrOpenDocumentationAction.java:104)
+	at ilog.rules.studio.irleditor.actions.IlrOpenDocumentationAction$1.call(IlrOpenDocumentationAction.java:98)
+	at ilog.rules.studio.irleditor.actions.IlrOpenDocumentationAction$1.call(IlrOpenDocumentationAction.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:277)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1160)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:812)
+
+!ENTRY com.ibm.rules.studio.decisionservice.ui 4 0 2022-12-14 11:48:16.740
+!MESSAGE Etat du serveur cible de déploiement : [• Cible 'Connexion Console Livret Developpement Durable': 'L'authentification a échoué pour l'utilisateur "null" sur "http://localhost:9090/res". L'authentification a échoué pour l'utilisateur "null" sur "http://localhost:9090/res".'.]
+
+!ENTRY com.ibm.rules.studio.decisionservice.ui 4 0 2022-12-14 15:13:26.824
+!MESSAGE Etat du serveur cible de déploiement : [• Cible 'Connexion locale intérêt sur le livret développement durable': 'Le déploiement de modèle d'objet d'exécution (XOM) n'est pas pris en charge pour la connexion au Java SE Rule Execution Server 'Connexion locale intérêt sur le livret développement durable'.'.]
