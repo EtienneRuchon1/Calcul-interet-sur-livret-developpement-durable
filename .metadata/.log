@@ -1621,3 +1621,26 @@ org.xml.sax.SAXParseException: Le type d'élément "hr" doit se terminer par une
 
 !ENTRY com.ibm.rules.studio.decisionservice.ui 4 0 2022-12-14 15:13:26.824
 !MESSAGE Etat du serveur cible de déploiement : [• Cible 'Connexion locale intérêt sur le livret développement durable': 'Le déploiement de modèle d'objet d'exécution (XOM) n'est pas pris en charge pour la connexion au Java SE Rule Execution Server 'Connexion locale intérêt sur le livret développement durable'.'.]
+
+!ENTRY com.ibm.rules.studio.base 0 0 2022-12-14 15:53:25.215
+!MESSAGE Variable de chemin d'accès aux classes IBM_DS_HOME initialisée avec la valeur 'C:/IBM/ODM8102'. 
+
+!ENTRY com.ibm.rules.studio.base 0 0 2022-12-14 15:53:25.215
+!MESSAGE Variable de chemin d'accès aux classes ILOG_BR_HOME initialisée avec la valeur 'C:/IBM/ODM8102'. 
+
+!ENTRY org.eclipse.egit.core 4 0 2022-12-14 15:54:05.835
+!MESSAGE An exception occurred during push on URI https://github.com/EtienneRuchon1/Calcul-interet-sur-livret-developpement-durable.git: https://github.com/EtienneRuchon1/Calcul-interet-sur-livret-developpement-durable.git: not authorized
+!STACK 0
+org.eclipse.jgit.api.errors.TransportException: https://github.com/EtienneRuchon1/Calcul-interet-sur-livret-developpement-durable.git: not authorized
+	at org.eclipse.jgit.api.PushCommand.call(PushCommand.java:169)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:217)
+	at org.eclipse.egit.ui.internal.push.PushOperationUI.execute(PushOperationUI.java:167)
+	at org.eclipse.egit.ui.internal.push.PushOperationUI$1.run(PushOperationUI.java:229)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+Caused by: org.eclipse.jgit.errors.TransportException: https://github.com/EtienneRuchon1/Calcul-interet-sur-livret-developpement-durable.git: not authorized
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:491)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:379)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:155)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1250)
+	at org.eclipse.jgit.api.PushCommand.call(PushCommand.java:158)
+	... 4 more
