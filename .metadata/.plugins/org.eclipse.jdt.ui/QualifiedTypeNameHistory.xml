@@ -9,8 +9,6 @@
 <fullyQualifiedTypeName name="java.util.Date"/>
 <fullyQualifiedTypeName name="java.util.Calendar"/>
 <fullyQualifiedTypeName name="pn.Transaction"/>
-<fullyQualifiedTypeName name="java.util.List"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="executionlocalelivretdeveloppementdurable.invocation.ODInteretSurDeveloppementDurableExecution"/>
 <fullyQualifiedTypeName name="org.apache.http.impl.client.CloseableHttpClient"/>
 <fullyQualifiedTypeName name="org.apache.http.impl.client.HttpClients"/>
@@ -21,4 +19,10 @@
 <fullyQualifiedTypeName name="org.apache.http.util.EntityUtils"/>
 <fullyQualifiedTypeName name="org.apache.http.HttpEntity"/>
 <fullyQualifiedTypeName name="org.apache.http.entity.ByteArrayEntity"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="toto.Utilitaire"/>
 </qualifiedTypeNameHistroy>
